@@ -4,7 +4,7 @@ const path = require('path');
 const { parse } = require("csv-parse")
 const req = require('request')
 
-const API_KEY = 'DcC3rznu-MmvQIHpxtBVBGEu7nrT4AZtEulTUrCAO'
+const API_KEY = ''
 const url = "https://trade.hawkeoptics.com/feeds/stock-all.csv";
 const file = 'stock-all.csv'
 const oldFile = 'stock-all.old.csv'
